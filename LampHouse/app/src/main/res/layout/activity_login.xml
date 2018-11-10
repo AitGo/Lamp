@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/bg_blue">
+
+        <LinearLayout
+            android:id="@+id/login_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:background="@mipmap/back"/>
+        </LinearLayout>
+
+        <com.rbu.lamphouse.widget.AppTextView
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/login"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:id="@+id/login_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dp"
+
+            android:paddingRight="15dp"
+            android:paddingTop="5dp">
+
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/register"
+                android:textColor="@color/text_white"
+                android:textSize="13sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:background="@mipmap/apppage3_02"
+        android:visibility="visible"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <com.rbu.lamphouse.widget.AppEditText
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:paddingLeft="41dp"
+            android:inputType="text"
+            android:hint="@string/input_email"
+            android:textColorHint="@color/bg_edit_gray"
+            android:textSize="13sp"
+            android:background="@drawable/bg_edittext"/>
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="48dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/zhanghu"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <com.rbu.lamphouse.widget.AppEditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:paddingLeft="41dp"
+            android:inputType="textPassword"
+            android:hint="@string/input_password"
+            android:textColorHint="@color/bg_edit_gray"
+            android:textSize="13sp"
+            android:background="@drawable/bg_edittext"/>
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="48dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/mima_1012"/>
+    </RelativeLayout>
+
+    <com.rbu.lamphouse.widget.AppTextView
+        android:id="@+id/login_forgetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="9dp"
+        android:text="@string/forget_password"
+        android:textColor="@color/text_black"
+        android:textSize="13sp"/>
+    
+    <com.rbu.lamphouse.widget.AppButton
+        android:id="@+id/login_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:text="@string/login"
+        android:textColor="@color/text_white"
+        android:textSize="13sp"
+        android:background="@drawable/bg_button"/>
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools" tools:locale="ru">
+
+    <string name="app_name">AGM Light</string>
+
+    <string name="exit">Нажмите еще раз, чтобы выйти</string>
+
+    //language
+    <string name="en">English</string>
+    <string name="es">EI español</string>
+    <string name="fr">Français</string>
+    <string name="de">Deutsch</string>
+    <string name="it">In Italiano</string>
+    <string name="ru">Русский</string>
+    <string name="ja">日本語</string>
+
+    //tab
+    <string name="home">Главная</string>
+    <string name="device">устройство</string>
+    <string name="message">Сообщение</string>
+    <string name="user">пользователь</string>
+
+    //dialog
+    <string name="prompt">Незамедлительный</string>
+    <string name="confirm">подтвердить</string>
+    <string name="cancel">Отмена</string>
+    <string name="inputhint">введите имя профиля</string>
+    <string name="connectionsuccess">соединение выполнено успешно</string>
+    <string name="connectionfail">соединение не выполнено</string>
+    <string name="input_amazon_pono">пожалуйста, введите Amazon PO No.</string>
+    <string name="amazon_pono">Amazon PO No.</string>
+
+    //setting
+    <string name="profiles">Profile</string>
+    <string name="timeroff">Таймер выключения</string>
+    <string name="timeron">Таймер включен</string>
+    <string name="autoconn">Автоматическое открытие при подключении</string>
+    <string name="autodisconn">Закрыть автоматический при отключении</string>
+    <string name="language">язык</string>
+    <string name="choosetime">Выберите время</string>
+
+    //profiles
+    <string name="bottom_prompt">&#160;&#160;&#160;&#160;По умолчанию 7 режимов, каждый режим, соответствующий RGB и яркости, может потребоваться больше режимов</string>
+
+    //addProfiles
+    <string name="add_title">Добавить профиль</string>
+    <string name="save">спасти</string>
+    <string name="input_profile_name">введите имя профиля</string>
+    <string name="select_color">Выберите один цвет</string>
+
+    //device
+    <string name="connected">связанный</string>
+    <string name="unconnected">несвязанный</string>
+
+    //user
+    <string name="register">регистр</string>
+    <string name="login">авторизоваться</string>
+    <string name="logout">Выйти</string>
+    <string name="unlogin">unlogin</string>
+    <string name="cash_coupon">Денежный купон</string>
+    <string name="setting">настройка</string>
+    <string name="help_center">Центр помощи</string>
+    <string name="about_us">О нас</string>
+
+    //login
+    <string name="input_email">введите адрес электронной почты</string>
+    <string name="input_password">введите пароль</string>
+    <string name="forget_password">забыть пароль?</string>
+    <string name="tkjn">TKJN</string>
+    <string name="verification_code">код подтверждения</string>
+
+
+    //toast
+    <string name="email_empty">Электронная почта пуста</string>
+    <string name="email_error">eMail - ошибка</string>
+    <string name="password_empty">пароль пуст</string>
+    <string name="tkjn_empty">Код подтверждения пуст</string>
+    <string name="tkjn_error">Код подтверждения - ошибка</string>
+    <string name="password_error">пароль - ошибка</string>
+
+    //forgetpassword
+    <string name="forget_password_title">забыть пароль</string>
+    <string name="enter_password">введите пароль</string>
+    <string name="confirm_password">Подтвердите Пароль</string>
+
+    //about us
+    <string name="office_website">Веб-сайт офиса</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="office_value">www.rbu.com</string>
+    <string name="facebook_value">account</string>
+    <string name="twitter_value">account</string>
+    <string name="copyright">© 2014-2018 Корпорация RBU Все права защищены</string>
+
+    //network
+    <string name="checknet">Проверьте сеть и повторите попытку.</string>
+    <string name="jsonerror">Ошибка возвращаемого значения</string>
+
+
+    //message
+    <string name="unread">Не прочитано</string>
+    <string name="read">Читать</string>
+    <string name="all">ВСЕ</string>
+    <string name="done">Готово</string>
+    <string name="delete">Удалить</string>
+    <string name="messageinfo">Сообщение</string>
+
+    //coupon
+    <string name="unused">неиспользуемый</string>
+    <string name="used">Используемый</string>
+    <string name="overdue">просроченный</string>
+    <string name="copy_code">код копирования</string>
+    <string name="coupon_code">Код купона:</string>
+    <string name="start_date">Дата начала:</string>
+    <string name="end_date">Дата окончания:</string>
+    <string name="copy_success">Скопировано в буфер обмена</string>
+    <string name="used_date">использованная дата:</string>
+
+
+</resources>

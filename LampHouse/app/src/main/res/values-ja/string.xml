@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools" tools:locale="ja">
+
+    <string name="app_name">AGM Light</string>
+
+    <string name="exit">終了するにはもう一度押してください</string>
+
+    //language
+    <string name="en">English</string>
+    <string name="es">EI español</string>
+    <string name="fr">Français</string>
+    <string name="de">Deutsch</string>
+    <string name="it">In Italiano</string>
+    <string name="ru">Русский</string>
+    <string name="ja">日本語</string>
+
+    //tab
+    <string name="home">ホーム</string>
+    <string name="device">設備</string>
+    <string name="message">メッセージ</string>
+    <string name="user">ユーザー</string>
+
+    //dialog
+    <string name="prompt">プロンプト</string>
+    <string name="confirm">確認</string>
+    <string name="cancel">キャンセル</string>
+    <string name="inputhint">プロフィルの名前を入力してください</string>
+    <string name="connectionsuccess">接続に成功しました</string>
+    <string name="connectionfail">接続に失敗しました</string>
+    <string name="input_amazon_pono">アマゾン PO No.を入力してください</string>
+    <string name="amazon_pono">アマゾン PO No.</string>
+
+    //setting
+    <string name="profiles">プロフィル</string>
+    <string name="timeroff">タイマーオフ</string>
+    <string name="timeron">タイマーオン</string>
+    <string name="autoconn">連続時に自動的に開く</string>
+    <string name="autodisconn">連続に失敗時に自動的に閉じる</string>
+    <string name="language">言語</string>
+    <string name="choosetime">時間を選択してください</string>
+
+    //profiles
+    <string name="bottom_prompt">&#160;&#160;&#160;&#160;デフォルトで七つのモードがあります。各モードはRGBと明るさを調整可能。また、ご好みによりRGBと明るさを調整すると、もっと多くのモードを設定することも可能になります。</string>
+
+    //addProfiles
+    <string name="add_title">プロフィルを追加</string>
+    <string name="save">保存</string>
+    <string name="input_profile_name">プロフィルの名前を入力してください</string>
+    <string name="select_color">カラー一つを選択してください</string>
+
+    //device
+    <string name="connected">接続完了</string>
+    <string name="unconnected">未接続</string>
+
+    //user
+    <string name="register">登録</string>
+    <string name="login">ログイン</string>
+    <string name="logout">ログアウト</string>               //////////////
+    <string name="unlogin">未登録</string>
+    <string name="cash_coupon">現金券</string>
+    <string name="setting">設定</string>
+    <string name="help_center">ヘルプセンター</string>
+    <string name="about_us">RGBについて</string>
+
+    //login
+    <string name="input_email">メールを入力してください</string>
+    <string name="input_password">パスワードを入力してください</string>
+    <string name="forget_password">パスワードを忘れる?</string>
+    <string name="tkjn">TKJN</string>                      /////////
+    <string name="verification_code">検証コード</string>
+
+
+    //toast
+    <string name="email_empty">イーメールはエンプティ</string>
+    <string name="email_error">イーメールはエラー</string>
+    <string name="password_empty">パスワードはエンプティ</string>
+    <string name="tkjn_empty">確認コードはエンプティ</string>
+    <string name="tkjn_error">確認コードはエラー</string>
+    <string name="password_error">パスワードはエラー</string>
+
+    //forgetpassword
+    <string name="forget_password_title">パスワードを忘れる</string>
+    <string name="enter_password">パスワードを入力してください</string>
+    <string name="confirm_password">パスワードを確認する</string>      ////////////
+
+    //about us
+    <string name="office_website">オフィスウェブサイト</string>
+    <string name="facebook">フェイスブック</string>
+    <string name="twitter">Twitter</string>
+    <string name="office_value">www.rbu.com</string>
+    <string name="facebook_value">account</string>
+    <string name="twitter_value">account</string>
+    <string name="copyright">©2014-2018 RBU Corporation All Rights Reserved</string>
+
+    //network
+    <string name="checknet">ネットワークを確認してもう一度お試しください</string>
+    <string name="jsonerror">戻り値エラー</string>
+
+    //message
+    <string name="unread">未読</string>
+    <string name="read">読み</string>
+    <string name="all">全部</string>
+    <string name="done">完了</string>
+    <string name="delete">削除</string>
+    <string name="messageinfo">メッセージ</string>
+
+    //coupon
+    <string name="unused">未使用</string>
+    <string name="used">使用</string>
+    <string name="overdue">期限が切れる</string>
+    <string name="copy_code">コピーコード</string>
+    <string name="coupon_code">クーポン コード:</string>
+    <string name="start_date">開始日:</string>
+    <string name="end_date">終了日:</string>
+    <string name="used_date">使用日:</string>
+    <string name="copy_success">クリップボードにコピーされました</string>
+
+</resources>

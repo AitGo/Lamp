@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@color/bg_page">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/bg_blue">
+
+        <LinearLayout
+            android:id="@+id/setting_ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:background="@mipmap/back"/>
+        </LinearLayout>
+
+        <!--<com.rbu.lamphouse.widget.AppTextView
+            android:id="@+id/home_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"/>-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:id="@+id/setting_rl_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal"
+            android:background="@color/text_white">
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"
+                android:text="@string/profiles"/>
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:background="@mipmap/xiayibu"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/setting_rl_timeroff"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal"
+            android:background="@color/text_white">
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"
+                android:text="@string/timeroff"/>
+
+            <Switch
+                android:id="@+id/setting_switch_timeroff"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:switchMinWidth="20dp"
+                android:textOn=" "
+                android:textOff=" "
+                android:thumb="@drawable/bg_switch_thumb"
+                android:track="@drawable/bg_switch" />
+
+            <ImageView
+                android:id="@+id/setting_iv_timeroff"
+                android:layout_width="6dp"
+                android:layout_height="12dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/setting_switch_timeroff"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/xiayibu"/>
+
+            <TextView
+                android:id="@+id/setting_tv_timeroff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/setting_iv_timeroff"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"
+                android:text=""/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/setting_rl_timeron"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            android:background="@color/text_white">
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"
+                android:text="@string/timeron"/>
+
+            <Switch
+                android:id="@+id/setting_switch_timeron"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:switchMinWidth="20dp"
+                android:textOn=" "
+                android:textOff=" "
+                android:thumb="@drawable/bg_switch_thumb"
+                android:track="@drawable/bg_switch" />
+
+            <ImageView
+                android:id="@+id/setting_iV_timeron"
+                android:layout_width="6dp"
+                android:layout_height="12dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/setting_switch_timeron"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/xiayibu"/>
+
+            <TextView
+                android:id="@+id/setting_tv_timeron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/setting_iV_timeron"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"
+                android:text=""/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal"
+            android:background="@color/text_white">
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="70dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"
+                android:text="@string/autoconn"/>
+
+            <Switch
+                android:id="@+id/setting_switch_autoconn"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:switchMinWidth="20dp"
+                android:textOn=" "
+                android:textOff=" "
+                android:thumb="@drawable/bg_switch_thumb"
+                android:track="@drawable/bg_switch" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            android:background="@color/text_white">
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="70dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"
+                android:text="@string/autodisconn"/>
+
+            <Switch
+                android:id="@+id/setting_switch_autodisconn"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:switchMinWidth="20dp"
+                android:textOn=" "
+                android:textOff=" "
+                android:thumb="@drawable/bg_switch_thumb"
+                android:track="@drawable/bg_switch" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/setting_rl_language"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal"
+            android:background="@color/text_white">
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"
+                android:text="@string/language"/>
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:background="@mipmap/xiayibu"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

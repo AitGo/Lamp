@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools" tools:locale="de">
+
+    <string name="app_name">AGM Light</string>
+
+    <string name="exit">Drücken Sie zum Beenden erneut</string>
+
+    //language
+    <string name="en">English</string>
+    <string name="es">EI español</string>
+    <string name="fr">Français</string>
+    <string name="de">Deutsch</string>
+    <string name="it">In Italiano</string>
+    <string name="ru">Русский</string>
+    <string name="ja">日本語</string>
+
+    //tab
+    <string name="home">Startseite</string>
+    <string name="device">Gerät</string>
+    <string name="message">Botschaft</string>
+    <string name="user">Benutzer</string>
+
+    //dialog
+    <string name="prompt">Prompt</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="cancel">Stornieren</string>
+    <string name="inputhint">Bitte geben Sie den Profilnamen ein </string>
+    <string name="connectionsuccess">Verbindung ist erfolgreich!</string>
+    <string name="connectionfail">Verbindung fehlgeschlagen</string>
+    <string name="input_amazon_pono">Bitte geben Sie Amazon Bestellnummer ein</string>
+    <string name="amazon_pono">Amazon Bestellnummer</string>
+
+    //setting
+    <string name="profiles">Profile</string>
+    <string name="timeroff">Timer AUS</string>
+    <string name="timeron">Timer an</string>
+    <string name="autoconn">Öffnet automatisch, wenn verbunden</string>
+    <string name="autodisconn">Schließt automatisch, wenn die Verbindung getrennt wird</string>
+    <string name="language">Sprache</string>
+    <string name="choosetime">Please choose the time</string>
+
+    //profiles
+    <string name="bottom_prompt">&#160;&#160;&#160;&#160;Standard 7 Modi, jeder Modus entspricht der RGB und Helligkeit, Sie können mehr Modi benötigen </string>
+
+    //addProfiles
+    <string name="add_title">Profil hinzufügen</string>
+    <string name="save">Speichern</string>
+    <string name="input_profile_name">Bitte geben Sie den Profilnamen ein</string>
+    <string name="select_color">Bitte wählen Sie eine Farbe</string>
+
+    //device
+    <string name="connected">in Verbindung gebracht</string>
+    <string name="unconnected">nicht verbunden</string>
+
+    //user
+    <string name="register">Registrieren</string>
+    <string name="login">Anmeldung</string>
+    <string name="logout">Abmelden</string>
+    <string name="unlogin">nicht anmelden</string>
+    <string name="cash_coupon">Bargeld-Coupon</string>
+    <string name="setting">Einstellung</string>
+    <string name="help_center">Hilfszentrum</string>
+    <string name="about_us">Über uns</string>
+
+    //login
+    <string name="input_email">Bitte geben Sie Ihre E-Mail-Adresse ein</string>
+    <string name="input_password">Bitte geben Sie Ihr Passwort ein</string>
+    <string name="forget_password">Passwort vergessen?</string>
+    <string name="tkjn">TKJN</string>
+    <string name="verification_code">Bestätigungscode</string>
+
+
+    //toast
+    <string name="email_empty">E-Mail ist leer</string>
+    <string name="email_error">E-Mail ist nicht korrekt</string>
+    <string name="password_empty">Kennwort ist leer</string>
+    <string name="tkjn_empty">Verifizierungscode ist leer</string>
+    <string name="tkjn_error">Verifizierungscode ist nicht korrekt</string>
+    <string name="password_error">Kennwort ist nicht korrekt</string>
+
+    //forgetpassword
+    <string name="forget_password_title">Passwort vergessen</string>
+    <string name="enter_password">Bitte geben Sie Ihr Passwort ein</string>
+    <string name="confirm_password">Kennwort bestätigen</string>
+
+    //about us
+    <string name="office_website">Office Website</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="office_value">www.rbu.com</string>
+    <string name="facebook_value">account</string>
+    <string name="twitter_value">account</string>
+    <string name="copyright">©2014-2018 RBU Corporation Alle Rechte vorbehalten</string>
+
+    //network
+    <string name="checknet">Bitte überprüfen Sie das Netzwerk und versuchen Sie es erneut</string>
+    <string name="jsonerror">Rückgabewert ist nicht korrekt </string>
+
+
+
+    //message
+    <string name="unread">Ungelesen</string>
+    <string name="read">lesen</string>
+    <string name="all">ALLE</string>
+    <string name="done">Erledigt</string>
+    <string name="delete">löschen</string>
+    <string name="messageinfo">Botschaft</string>
+
+    //coupon
+    <string name="unused">Unbenutzt</string>
+    <string name="used">benutzt</string>
+    <string name="overdue">Überfällig</string>
+    <string name="copy_code">Kopiercode</string>
+    <string name="coupon_code">Gutscheincode:</string>
+    <string name="start_date">Anfangsdatum:</string>
+    <string name="end_date">Endtermin:</string>
+    <string name="copy_success">Wird in die Zwischenablage kopiert</string>
+    <string name="used_date">benutztes Datum:</string>
+
+</resources>

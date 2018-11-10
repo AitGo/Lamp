@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/bg_blue">
+
+        <LinearLayout
+            android:id="@+id/profiles_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+
+                android:layout_width="17dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:background="@mipmap/back"/>
+        </LinearLayout>
+
+        <com.rbu.lamphouse.widget.AppTextView
+            android:id="@+id/profiles_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/profiles"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"/>
+
+
+    </RelativeLayout>
+
+    <GridView
+       android:id="@+id/profiles_gridview"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="25dp"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+       android:layout_marginBottom="100dp"
+       android:gravity="center"
+       android:horizontalSpacing="35dp"
+       android:numColumns="4"
+       android:stretchMode="columnWidth"
+       android:verticalSpacing="48dp"
+       android:minHeight="210dp"
+       android:fastScrollEnabled="false"
+
+       />
+
+    <com.rbu.lamphouse.widget.AppTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-85dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/bottom_prompt"
+        android:textSize="13sp"
+        android:textColor="@color/text_black"/>
+
+
+</LinearLayout>

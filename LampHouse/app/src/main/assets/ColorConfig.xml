@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config version="1">
+	
+	<color Name="breath" R="255" G="112" B="56" Light="100"  ></color>
+	<color Name="sleep" R="151" G="154" B="255" Light="80"  ></color>
+	<color Name="romantic" R="234" G="91" B="255" Light="100"  ></color>
+	<color Name="reading" R="254" G="228" B="105" Light="100" ></color>
+
+</config>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/bg_blue">
+
+        <LinearLayout
+            android:id="@+id/about_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:background="@mipmap/back"/>
+        </LinearLayout>
+
+        <com.rbu.lamphouse.widget.AppTextView
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/about_us"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/bg_blue">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="83dp"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/logo"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:text="@string/office_website"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:text="@string/office_value"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:text="@string/facebook"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:text="@string/facebook_value"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:text="@string/twitter"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:text="@string/twitter_value"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="156dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@mipmap/logo_1"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="26dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/copyright"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+
+    <string name="app_name">AGM Light</string>
+
+    <string name="exit">Press again to quit</string>
+
+    //language
+    <string name="en">English</string>
+    <string name="es">EI español</string>
+    <string name="fr">Français</string>
+    <string name="de">Deutsch</string>
+    <string name="it">In Italiano</string>
+    <string name="ru">Русский</string>
+    <string name="ja">日本語</string>
+
+    //tab
+    <string name="home">Home</string>
+    <string name="device">Device</string>
+    <string name="message">Message</string>
+    <string name="user">User</string>
+
+    //dialog
+    <string name="prompt">Prompt</string>
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="inputhint">plz input profil name</string>
+    <string name="connectionsuccess">Connection Succeeded!</string>
+    <string name="connectionfail">connection failed</string>
+    <string name="input_amazon_pono">plz input Amazon PO No.</string>
+    <string name="amazon_pono">Amazon PO No.</string>
+
+    //setting
+    <string name="profiles">Profiles</string>
+    <string name="timeroff">Timer OFF</string>
+    <string name="timeron">Timer ON</string>
+    <string name="autoconn">Open automatic when connected</string>
+    <string name="autodisconn">Close automatic when disconnected</string>
+    <string name="language">Language</string>
+    <string name="choosetime">Please choose the time</string>
+
+    //profiles
+    <string name="bottom_prompt">&#160;&#160;&#160;&#160;Default 7 modes,each mode corresponding to the RGB and brightness,you can need more modes</string>
+
+    //addProfiles
+    <string name="add_title">Add Profiles</string>
+    <string name="save">save</string>
+    <string name="input_profile_name">plz input profile name</string>
+    <string name="select_color">Please select one color</string>
+
+    //device
+    <string name="connected">connected</string>
+    <string name="unconnected">unconnected</string>
+
+    //user
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="unlogin">Unlogin</string>
+    <string name="cash_coupon">Cash Coupon</string>
+    <string name="setting">Setting</string>
+    <string name="help_center">Helping Center</string>
+    <string name="about_us">About US</string>
+
+    //login
+    <string name="input_email">plz input your email</string>
+    <string name="input_password">plz input your password</string>
+    <string name="forget_password">forget password?</string>
+    <string name="tkjn">TKJN</string>
+    <string name="verification_code">Verification code</string>
+
+
+    //toast
+    <string name="email_empty">eMail is empty</string>
+    <string name="email_error">eMail is error</string>
+    <string name="password_empty">password is empty</string>
+    <string name="tkjn_empty">Verification Code is empty</string>
+    <string name="tkjn_error">Verification Code is error</string>
+    <string name="password_error">password is error</string>
+
+    //forgetpassword
+    <string name="forget_password_title">forget password</string>
+    <string name="enter_password">Please enter your password</string>
+    <string name="confirm_password">Confirm password</string>
+
+    //about us
+    <string name="office_website">Office Website</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="office_value">www.rbu.com</string>
+    <string name="facebook_value">account</string>
+    <string name="twitter_value">account</string>
+    <string name="copyright">©2014-2018 RBU Corporation All Rights Reserved</string>
+
+    //network
+    <string name="checknet">Please check the network and try again</string>
+    <string name="jsonerror">Return value error</string>
+
+
+
+
+    //message
+    <string name="unread">Unread</string>
+    <string name="read">Read</string>
+    <string name="all">All</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+    <string name="messageinfo">Message</string>
+
+    //coupon
+    <string name="unused">Unused</string>
+    <string name="used">Used</string>
+    <string name="overdue">Overdue</string>
+    <string name="copy_code">copy code</string>
+    <string name="coupon_code">Coupon code:</string>
+    <string name="start_date">start date:</string>
+    <string name="end_date">end date:</string>
+    <string name="copy_success">copy success!</string>
+    <string name="used_date">used date:</string>
+
+
+</resources>

@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "com.rbu.lamphouse"
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 2
+        versionName "1.1"
+    }
+
+    signingConfigs {
+        debug {
+            keyAlias 'erp'
+            keyPassword 'rbu123456'
+            storeFile file('F:\\App_Code\\erp.jks')
+            storePassword 'rbu123456'
+        }
+        release {
+            keyAlias 'erp'
+            keyPassword 'rbu123456'
+            storeFile file('F:\\App_Code\\erp.jks')
+            storePassword 'rbu123456'
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug //签名
+            signingConfig signingConfigs.release //签名
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled false
+            shrinkResources false
+        }
+
+        release {
+            signingConfig signingConfigs.release //签名
+            buildConfigField "boolean", "LOG_DEBUG", "false"   // 不显示Log
+            minifyEnabled false //混淆
+            shrinkResources false  // 移除无用的resource文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+
+    //配置自定义打包名称
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            // 输出apk名称为great_v1.0_wandoujia.apk
+            def fileName = "AGMLight_V${variant.versionName}_C${variant.versionCode}_${variant.name}_"+ releaseTime() + ".apk"
+            outputFileName = fileName
+        }
+    }
+}
+
+//获取时间戳
+def releaseTime() {
+    return new Date().format("MMdd", TimeZone.getTimeZone("UTC"))
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile files('libs/gson-2.2.1.jar')
+    compile 'com.contrarywind:Android-PickerView:4.1.4'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.inuker.bluetooth:library:1.4.0'
+
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-7'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-7'
+    //没有使用特殊Header，可以不加这行
+    compile files('libs/jsoup-1.11.3.jar')
+}

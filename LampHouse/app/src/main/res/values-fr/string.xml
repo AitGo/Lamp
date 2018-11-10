@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools" tools:locale="fr">
+
+    <string name="app_name">AGM Light</string>
+
+    <string name="exit">Appuyez à nouveau pour quitter</string>
+
+    //language
+    <string name="en">English</string>
+    <string name="es">EI español</string>
+    <string name="fr">Français</string>
+    <string name="de">Deutsch</string>
+    <string name="it">In Italiano</string>
+    <string name="ru">Русский</string>
+    <string name="ja">日本語</string>
+
+    //tab
+    <string name="home">Accueil</string>
+    <string name="device">Appareil</string>
+    <string name="message">Message</string>
+    <string name="user">Utilisateur</string>
+
+    //dialog
+    <string name="prompt">Actualiser</string>
+    <string name="confirm">Confirmer</string>
+    <string name="cancel">Annuler</string>
+    <string name="inputhint">Entrez nom de profil SVP</string>
+    <string name="connectionsuccess">connexion réussie</string>
+    <string name="connectionfail">échec de la connexion</string>
+    <string name="input_amazon_pono">Entrez numéro commande Amazon SVP</string>
+    <string name="amazon_pono">Numéro Commande Amazon</string>
+
+    //setting
+    <string name="profiles">Profil</string>
+    <string name="timeroff">Chronomètre OFF</string>
+    <string name="timeron">Chronomètre ON</string>
+    <string name="autoconn">Ouvrir automatiquement quand connecté</string>
+    <string name="autodisconn">Fermer automatiquement quand déconnecté</string>
+    <string name="language">Langue</string>
+    <string name="choosetime">Choisir l\'heure SVP</string>
+
+    //profiles
+    <string name="bottom_prompt">&#160;&#160;&#160;&#160;7 modes par défaut,chaque mode correspondant a la luminosité et couleur RGB, vous pouvez necessiter davantage de modes</string>
+
+    //addProfiles
+    <string name="add_title">Ajouter Profil</string>
+    <string name="save">sauver</string>
+    <string name="input_profile_name">Entrez nom de profil SVP</string>
+    <string name="select_color">Sélectionnez une couleur SVP</string>
+
+    //device
+    <string name="connected">connecté</string>
+    <string name="unconnected">déconnecté</string>
+
+    //user
+    <string name="register">S\'enregistrer</string>
+    <string name="login">Se connecter</string>
+    <string name="logout">Quitter</string>               //////////////
+    <string name="unlogin">Se déconnecter</string>
+    <string name="cash_coupon">Coupon Cash</string>
+    <string name="setting">Paramètres</string>
+    <string name="help_center">Centre d\'aide</string>
+    <string name="about_us">A propos</string>
+
+    //login
+    <string name="input_email">Entrez votre email SVP</string>
+    <string name="input_password">Entrez votre mot de passe SVP</string>
+    <string name="forget_password">Mot de passe oublié?</string>
+    <string name="tkjn">TKJN</string>                      /////////
+    <string name="verification_code">Code de vérification</string>
+
+
+    //toast
+    <string name="email_empty">e-mail est vide</string>
+    <string name="email_error">eMail est une erreur</string>
+    <string name="password_empty">le mot de passe est vide</string>
+    <string name="tkjn_empty">Le code de vérification est vide</string>
+    <string name="tkjn_error">Le code de vérification est une erreur</string>
+    <string name="password_error">le mot de passe est erreur</string>
+
+    //forgetpassword
+    <string name="forget_password_title">Mot de passe oublié</string>
+    <string name="enter_password">Entrez votre mot de passe SVP</string>
+    <string name="confirm_password">Confirmez le mot de passe</string>      ////////////
+
+    //about us
+    <string name="office_website">Site Web</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="office_value">www.rbu.com</string>
+    <string name="facebook_value">account</string>
+    <string name="twitter_value">account</string>
+    <string name="copyright">©2014-2018 RBU Corporation Tous Droits Réservés</string>
+
+    //network
+    <string name="checknet">Veuillez vérifier le réseau et réessayer</string>
+    <string name="jsonerror">Erreur de valeur de retour</string>
+
+    //message
+    <string name="unread">Non-lu</string>
+    <string name="read">Lire</string>
+    <string name="all">TOUT</string>
+    <string name="done">Fait</string>
+    <string name="delete">Supprimer</string>
+    <string name="messageinfo">Message</string>
+
+    //coupon
+    <string name="unused">Inutilisé</string>
+    <string name="used">Utilisé</string>
+    <string name="overdue">En retard</string>
+    <string name="copy_code">copier code</string>
+    <string name="coupon_code">Code coupon:</string>
+    <string name="start_date">date de début:</string>
+    <string name="end_date">date de fin:</string>
+    <string name="used_date">date d\'utilisation:</string>
+    <string name="copy_success">Copié dans le presse-papier</string>
+
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/bg_blue">
+
+        <LinearLayout
+            android:id="@+id/message_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:visibility="gone">
+
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:text="@string/all"
+                android:textColor="@color/text_white"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+
+        <com.rbu.lamphouse.widget.AppTextView
+            android:id="@+id/message_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/message"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:id="@+id/message_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:background="@mipmap/bianji"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/message_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="5dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:visibility="gone">
+
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:text="@string/done"
+                android:textColor="@color/text_white"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/message_unread_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.rbu.lamphouse.widget.AppTextView
+                android:id="@+id/message_unread_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/unread"
+                android:textColor="@color/bg_blue"
+                android:textSize="14sp"/>
+
+            <View
+                android:id="@+id/message_unread_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/bg_blue"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/message_read_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.rbu.lamphouse.widget.AppTextView
+                android:id="@+id/message_read_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/read"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"/>
+
+            <View
+                android:id="@+id/message_read_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/bg_gray"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/message_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+    
+    <com.rbu.lamphouse.widget.AppButton
+        android:id="@+id/message_delete"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:text="@string/delete"
+        android:textSize="13sp"
+        android:textColor="@color/text_white"
+        android:background="@drawable/bg_button_cancel"
+        android:visibility="gone"/>
+</LinearLayout>

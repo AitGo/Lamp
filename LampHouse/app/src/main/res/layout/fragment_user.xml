@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_page"
+              android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/bg_blue">
+
+        <com.rbu.lamphouse.widget.AppTextView
+            android:id="@+id/user_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/user"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:background="@color/bg_blue"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="56dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/user_iv_pic"
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/user"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="0dp"/>
+
+            <com.rbu.lamphouse.widget.AppTextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/user_iv_pic"
+                android:text="@string/unlogin"
+                android:textColor="@color/text_white"
+                android:textSize="13sp"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/user_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="5dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp">
+
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/register"
+                android:textColor="@color/text_white"
+                android:textSize="13sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/user_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/user_register"
+            android:paddingBottom="5dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:visibility="gone">
+
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/logout"
+                android:textColor="@color/text_white"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/user_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/user_register"
+            android:paddingBottom="5dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp">
+
+            <com.rbu.lamphouse.widget.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/login"
+                android:textColor="@color/text_white"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/user_cash"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/bg_user">
+
+        <com.rbu.lamphouse.widget.AppTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/cash_coupon"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="6dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:background="@mipmap/xiayibu"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/user_setting"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_user">
+
+        <com.rbu.lamphouse.widget.AppTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/setting"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:background="@mipmap/xiayibu"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/user_help"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_user">
+
+        <com.rbu.lamphouse.widget.AppTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/help_center"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:background="@mipmap/xiayibu"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/user_about"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_user">
+
+        <com.rbu.lamphouse.widget.AppTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/about_us"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:background="@mipmap/xiayibu"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:id="@+id/item_rl">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="34dp"
+        android:text="title"
+        android:textColor="@color/text_black"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="34dp"
+        android:text="2018.06.21 11:20:54"
+        android:textColor="@color/text_gray"
+        android:textSize="12sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="62dp"
+        android:layout_marginLeft="-62dp"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="12dp"
+            android:background="@mipmap/xiayibu"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/item_check"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:background="@mipmap/dagou_1"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
